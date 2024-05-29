@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo img{
+    width: 150px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    
+}
+
+nav ul li{
+    display: inline;
+    
+
+    
+}
+
+nav ul li a{    
+    text-decoration: none;
+    color: #333;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    padding: 20px;
+}
+
+.training a{
+    text-decoration: none;
+    color: #0073e6;
+    padding: 20px;
+    margin: 20px;
+}
+
+.intro {
+    background-color: #ffe1a9e3;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.intro img{
+    height: 50px;
+}
+.intro h1{
+    font-size: 32px;
+}
+
+.intro p{
+    margin: 20px 40px;
+    
+}
+
+.start_now{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+}
+
+
+.search-icon img {
+    padding-left: 500px;
+}
